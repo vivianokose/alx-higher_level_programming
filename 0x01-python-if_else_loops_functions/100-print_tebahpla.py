@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for char_code in range(ord('z'), ord('A') - 1, -1):
-    print(chr(char_code), end='')
+for ch in reversed(range(97, 123)):
+    print("{:c}".format(ch if (ch % 2 == 0) else (ch - 32)), end='')
