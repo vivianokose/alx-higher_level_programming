@@ -4,7 +4,10 @@ import random
 number = random.randint(-10000, 10000)
 
 # Extract the last digit of number
-last_digit = abs(number) % 10
+if number >= 0:
+    l_digit = number % 10
+else:
+    l_digit = number % -10
 
 # Print the result based on the last digit
 print("Last digit of", number, "is", last_digit, end=" ")
