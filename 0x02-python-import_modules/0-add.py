@@ -1,13 +1,6 @@
 #!/usr/bin/python3
-
 if __name__ == "__main__":
-
-# Assign values to variables a and b
-i = 1
-j = 2
-
-# Import the add function from add_0.py
-from add_0 import add
-
-# Print the result in the specified format
-print("{} + {} = {}".format(i, j, result(i, j))
+    from add_0 import add
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
