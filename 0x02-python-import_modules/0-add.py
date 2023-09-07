@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+if __name__ == "__main__":
 # Assign values to variables a and b
 i = 1
 j = 2
