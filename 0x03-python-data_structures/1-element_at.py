@@ -1,12 +1,6 @@
 #!/usr/bin/python3
 
-def fetch_list_element(my_data, position):
-    if position < 0:
+def get_element(my_list, idx):
+    if (idx < 0) or (idx >= len(my_list)):
         return None
-
-    data_length = len(my_data)
-
-    if position >= data_length:
-        return None
-
-    return my_data[position]
+    return (my_list[idx])
