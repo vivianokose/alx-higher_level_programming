@@ -1,0 +1,1 @@
+This repository contains projects and exercises related to using jQuery in web development. jQuery is a fast, small, and feature-rich JavaScript library that simplifies various tasks such as HTML document traversal and manipulation, event handling, animation, and Ajax interactions for rapid web development.
